@@ -1,38 +1,3 @@
-// document.addEventListener('DOMContentLoaded', () => {
-//
-// const cats = document.querySelector('#cats');
-//
-// cat.innerHTML= '';
-//
-// const createCat = function(name, food, imageSrc, container){
-//
-//
-//   });
-//   const ulItem = document.createElement('ul');
-//
-//   const listItem = document.createElement('li');
-//
-//   const catName = document.createElement('li');
-//   catName.textContent = 'Name: Steve';
-//
-//   const catFood = document.createElement('li');
-//
-//   catFood.textContent = 'Favourite food: beans on toast';
-//
-//   const catImage = document.createElement('img');
-//   catImage.src = 'http://littlefun.org/uploads/521d1a62c8561116e1000000_736.jpg';
-//   catImage.width = 500;
-//
-//   cats.appendChild(ulItem);
-//   ulItem.appendChild(catName);
-//   ulItem.appendChild(catFood);
-//   ulItem.appendChild(listItem);
-//   listItem.appendChild(catImage);
-
-
-// });
-
-//refactored above code, turned it into a method to add cats to the DOM
 document.addEventListener('DOMContentLoaded', () => {
 
   const cats = document.querySelector('#cats');
@@ -72,3 +37,38 @@ for (let i = 0; i < catArray.length; i++) {
 }
 
 });
+
+//code below was refactored and turned into a method as can be seen above
+// document.addEventListener('DOMContentLoaded', () => {
+//
+// const cats = document.querySelector('#cats');
+//
+// cat.innerHTML= '';
+//
+// const createCat = function(name, food, imageSrc, container){
+//
+//
+//   });
+//   const ulItem = document.createElement('ul');
+//
+//   const listItem = document.createElement('li');
+//
+//   const catName = document.createElement('li');
+//   catName.textContent = 'Name: Steve';
+//
+//   const catFood = document.createElement('li');
+//
+//   catFood.textContent = 'Favourite food: beans on toast';
+//
+//   const catImage = document.createElement('img');
+//   catImage.src = 'http://littlefun.org/uploads/521d1a62c8561116e1000000_736.jpg';
+//   catImage.width = 500;
+//
+//   cats.appendChild(ulItem);
+//   ulItem.appendChild(catName);
+//   ulItem.appendChild(catFood);
+//   ulItem.appendChild(listItem);
+//   listItem.appendChild(catImage);
+
+
+// });
